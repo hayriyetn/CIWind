@@ -13,6 +13,7 @@
       </class> <!-- tests.HomePageTest -->
       <class name="tests.ProductDetailPageTest">
         <methods>
+          <include name="colorChange"/>
           <include name="goToPDP"/>
           <include name="getIt"/>
           <include name="tearDown"/>

@@ -30,23 +30,23 @@ public class ProductDetailPageTest extends BaseWi{
 		
 		homePage=new HomePage(driver);
 		homePage.search(item2);
-// 		productDetailPage.scrollDown();
-//		productDetailPage.clickPicture();
-//		productDetailPage.changeColor();
+ 		productDetailPage.scrollDown();
+		productDetailPage.clickPicture();
+		productDetailPage.changeColor();
 	   
 	}
 	
-	@Test 
+	@Test
 	public void goToPDP() {
 
-		Assert.assertTrue(driver.getTitle().contains(title));	
+		Assert.assertFalse(driver.getTitle().contains(title));	
 		
 	}
 	
-	@Test @Ignore
+	@Test 
 	public void colorChange() {
 		
-		Assert.assertTrue(productDetailPage.TaupeColor.isDisplayed());
+		Assert.assertTrue(productDetailPage.rustColor.isDisplayed());
 		
 		
 	}

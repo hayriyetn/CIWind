@@ -1,5 +1,4 @@
 package pages;
-import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -37,9 +36,9 @@ public class HomePage {
 	@FindBy(css="women-39-s-clothing-amp-fashion-dresses-tops-jackets-shoes-amp-more")
 	public WebElement anyWhere;
 
-	@FindBy(css="div.PaginationRange")
+	@FindBy(css="#SearchResults > div.Section__container > div > div > div.FilteredCollection_container >"
+			+ " div.FilteredCollection__controls-container > div.FilteredCollection__controls-left > div.PaginationRange")
 	public WebElement viewCaption;
-
 
 
 	public void handlePop() {

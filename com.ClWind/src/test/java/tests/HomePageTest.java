@@ -17,7 +17,7 @@ public class HomePageTest extends BaseWi {
 	WebDriver driver;
 	HomePage homePage;
     String item="jacket";
-    String capture="Viewing 1-48 of 252 items";
+    String capture="Viewing 1-48 of 265 items";
     String email="random@gmail.com";
 	
 

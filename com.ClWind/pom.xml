@@ -71,6 +71,13 @@
     <version>3.7.1</version>
 </dependency>
     
+    <!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core -->
+<dependency>
+    <groupId>org.jenkins-ci.main</groupId>
+    <artifactId>jenkins-core</artifactId>
+    <version>2.85</version>
+</dependency>
+    
     
     <dependency>
       <groupId>org.apache.maven.plugin-tools</groupId>
@@ -190,6 +197,8 @@
 			<id>smartbear-sweden-plugin-repository</id>
 			<url>http://www.soapui.org/repository/maven2/</url>
 		</repository>
+		
+		
 		<repository>
            <id>bintray</id>
            <url>http://dl.bintray.com/epam/reportportal</url>
